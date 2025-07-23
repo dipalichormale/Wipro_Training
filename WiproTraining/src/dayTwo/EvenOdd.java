@@ -1,9 +1,12 @@
 package dayTwo;
-
+import java.util.Scanner;
 public class EvenOdd {
 
 	public static void main(String[] args) {
-		int number = 7;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter Number: ");
+		int number = sc.nextInt();
 
         if (number % 2 == 0) {
             System.out.println(number + " is Even");
