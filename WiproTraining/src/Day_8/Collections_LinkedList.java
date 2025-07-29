@@ -6,19 +6,30 @@ import java.util.List;
 public class Collections_LinkedList {
 
 	public static void main(String[] args) {
-		List<Integer> data = new LinkedList<Integer>();
-		data.add(11);
-		data.add(22);
-		data.add(33);
-		data.add(44);
-		data.add(55);
-		System.out.println(data.get(3));
-		System.out.println(data.indexOf(33));
-		System.out.println(data.size());
+		List<String> courses = new LinkedList<String>();
+		courses.add("Java");
+        courses.add("Python");
+        courses.add("Data Science");
+        courses.add("Web Development");
+
+        // Display the entire list
+        System.out.println("Course List: " + courses);
+
+        // Add a course at the beginning
+        courses.addFirst("C Programming");
+
+        // Add a course at the end
+        courses.addLast("Machine Learning");
+
+        // Remove one course
+        courses.remove("Python");
+
+        // Display final list
+        System.out.println("After removing Python: " + courses);
 		
-		for(Object i:data) {
-			int data1 = (Integer) i;
-			System.out.println(data1);
+		for(String i:courses) {
+			String course = (String) i;
+			System.out.println(course);
 		}
 
 	}

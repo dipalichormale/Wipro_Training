@@ -13,9 +13,15 @@ public class Collections_List {
 		data.add(33);
 		data.add(44);
 		data.add(55);
-//		System.out.println(data.get(3));
-//		System.out.println(data.indexOf(33));
-//		System.out.println(data.size());
+		System.out.println(data.get(3));
+		System.out.println(data.indexOf(33));
+		System.out.println(data.size());
+		
+//		data.add("50");
+//		for(int i=0;i<data.size();i++) {
+//			System.out.println(data.get(i)+ "");
+//		}
+//		
 		
 		for(Object i:data) {
 			int data1 = (Integer) i;
