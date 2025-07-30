@@ -7,7 +7,7 @@ public class Wrapper_Classes {
 		int a = 12;
 		Integer i = a; // when we convert int datatype to integer is called auto boxing.
 		//int b = i.intValue(); //object back to int datatype is called auto unboxing.
-		int b = i;
+//		int b = i;
 		System.out.println(i);
 		
 		// converting String to Integer using parseInt()

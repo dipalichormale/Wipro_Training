@@ -19,6 +19,7 @@ public class PrimeNumber {
 		}
 		
 		System.out.println(n +(isPrime ? " is prime." : " is not prime"));
+		sc.close();
 	}
 
 }

@@ -14,8 +14,8 @@ public class ReferenceVariables {
 	
 	public static void main(String[] args) {
 		int x = 10;
-		int y = x;
-		y = 20;
+//		int y = x;
+//		y = 20;
 		System.out.println("x = " +x);
 		Person p1 = new Person("ayz");
 		Person p2 = p1;
