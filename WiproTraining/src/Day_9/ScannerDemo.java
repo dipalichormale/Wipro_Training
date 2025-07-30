@@ -9,7 +9,8 @@ public class ScannerDemo {
 		System.out.print("Enter Number:");
 		int a = sc.nextInt();
 		System.out.println("Result:" +a);
-
+        
+		sc.close();
 	}
 
 }
