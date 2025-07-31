@@ -17,18 +17,20 @@ class Student implements Comparable<Student>{
 		return "Student[age: " + age + ", name: " + name+ "]";
 	}
 	
-	public int compareTo(Student otherStudent) {
-		if (this.age > otherStudent.age) 
-			return 1; 
-		else 
-			return -1;  
+	@Override
+	public int compareTo(Student o) {
+//		if (this.age > otherStudent.age) 
+//			return 1; 
+//		else 
+//			return -1;  
+		return 0;
 	}
 }
 
 public class Collections_Comparable2 {
-	
+	  
+	  // Comparator to sort Student objects by age
 	  static Comparator<Student> com = new Comparator<Student>() {
-		
 		public int compare(Student i, Student j) {
 			if(i.age > j.age)
 				return 1;
