@@ -42,13 +42,13 @@ public class Serialazation_Deserialazation {
 		s1.setName("Dipali");
 		s1.setAge(23);
 		
-		FileOutputStream out=new FileOutputStream("C:\\Users\\kashi\\Desktop\\First.txt");
+		FileOutputStream out=new FileOutputStream("C:\\Users\\kashi\\Desktop\\JavaP.txt");
 		ObjectOutputStream output=new ObjectOutputStream(out);
 		output.writeObject(s1);
 		out.close();
 		output.close();
 		
-		FileInputStream in=new FileInputStream("C:\\Users\\kashi\\Desktop\\First.txt");
+		FileInputStream in=new FileInputStream("C:\\Users\\kashi\\Desktop\\JavaP.txt");
 		ObjectInputStream input=new ObjectInputStream(in);
 		Student1 s2=(Student1) input.readObject();
 
