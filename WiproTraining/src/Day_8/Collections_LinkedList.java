@@ -6,7 +6,7 @@ import java.util.List;
 public class Collections_LinkedList {
 
 	public static void main(String[] args) {
-		List<String> courses = new LinkedList<String>();
+		LinkedList<String> courses = new LinkedList<String>();
 		courses.add("Java");
         courses.add("Python");
         courses.add("Data Science");
