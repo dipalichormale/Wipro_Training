@@ -17,7 +17,7 @@ public class DemoStore{
     WebDriverWait wait;
     String baseUrl = "https://demo.nopcommerce.com/";
     String email;
-    String password = "Test@123";
+    String password = "Password";
 
     @BeforeClass
     public void setUp() {
