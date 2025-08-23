@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="6" passed="0" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-19T16:51:24 IST" name="Default suite" finished-at="2025-08-19T16:51:56 IST" duration-ms="31595">
+  <suite started-at="2025-08-22T11:04:49 IST" name="Default suite" finished-at="2025-08-22T11:05:23 IST" duration-ms="33989">
     <groups>
     </groups>
-    <test started-at="2025-08-19T16:51:24 IST" name="Default test" finished-at="2025-08-19T16:51:56 IST" duration-ms="31595">
+    <test started-at="2025-08-22T11:04:49 IST" name="Default test" finished-at="2025-08-22T11:05:23 IST" duration-ms="33989">
       <class name="Test_06.NopCommerceParallelExecution">
-        <test-method signature="signUpToNopCommerce(java.lang.String,java.lang.String)[pri:1, instance:Test_06.NopCommerceParallelExecution@40a4337a]" started-at="2025-08-19T16:51:24 IST" name="signUpToNopCommerce" data-provider="userData" finished-at="2025-08-19T16:51:37 IST" duration-ms="12757" status="FAIL">
+        <test-method signature="signUpToNopCommerce(java.lang.String,java.lang.String)[pri:1, instance:Test_06.NopCommerceParallelExecution@40a4337a]" started-at="2025-08-22T11:04:50 IST" name="signUpToNopCommerce" data-provider="userData" finished-at="2025-08-22T11:05:04 IST" duration-ms="14854" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -26,16 +26,16 @@
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52305}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52305/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d3bfe9d181d230809084e2794adf9e24]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53733}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53733/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3b83b02417d4236ab790335c4a4773f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: gender-Female (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52305}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52305/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d3bfe9d181d230809084e2794adf9e24
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53733}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53733/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3b83b02417d4236ab790335c4a4773f
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at Test_06.NopCommerceParallelExecution.signUpToNopCommerce(NopCommerceParallelExecution.java:31)
@@ -60,7 +60,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpToNopCommerce -->
-        <test-method signature="signUpToNopCommerce(java.lang.String,java.lang.String)[pri:1, instance:Test_06.NopCommerceParallelExecution@40a4337a]" started-at="2025-08-19T16:51:24 IST" name="signUpToNopCommerce" data-provider="userData" finished-at="2025-08-19T16:51:38 IST" duration-ms="13917" status="FAIL">
+        <test-method signature="signUpToNopCommerce(java.lang.String,java.lang.String)[pri:1, instance:Test_06.NopCommerceParallelExecution@40a4337a]" started-at="2025-08-22T11:04:50 IST" name="signUpToNopCommerce" data-provider="userData" finished-at="2025-08-22T11:05:05 IST" duration-ms="15526" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -79,16 +79,16 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52307}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52307/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 069aa93e03d24ba379abbe3b7478982d]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53732}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53732/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 145f5a0de32c917bab87a798a3dcdd8a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: gender-Female (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52307}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52307/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 069aa93e03d24ba379abbe3b7478982d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53732}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53732/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 145f5a0de32c917bab87a798a3dcdd8a
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at Test_06.NopCommerceParallelExecution.signUpToNopCommerce(NopCommerceParallelExecution.java:31)
@@ -113,7 +113,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpToNopCommerce -->
-        <test-method signature="signUpToNopCommerce(java.lang.String,java.lang.String)[pri:1, instance:Test_06.NopCommerceParallelExecution@40a4337a]" started-at="2025-08-19T16:51:37 IST" name="signUpToNopCommerce" data-provider="userData" finished-at="2025-08-19T16:51:50 IST" duration-ms="12657" status="FAIL">
+        <test-method signature="signUpToNopCommerce(java.lang.String,java.lang.String)[pri:1, instance:Test_06.NopCommerceParallelExecution@40a4337a]" started-at="2025-08-22T11:05:04 IST" name="signUpToNopCommerce" data-provider="userData" finished-at="2025-08-22T11:05:17 IST" duration-ms="12735" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -132,16 +132,16 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52348}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52348/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 168a29a46ffcc5fea0cfaaff71e56fcd]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53772}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53772/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce03b6c142da758e2632a07e7155350a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: gender-Female (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52348}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52348/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 168a29a46ffcc5fea0cfaaff71e56fcd
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53772}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53772/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce03b6c142da758e2632a07e7155350a
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at Test_06.NopCommerceParallelExecution.signUpToNopCommerce(NopCommerceParallelExecution.java:31)
@@ -166,7 +166,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpToNopCommerce -->
-        <test-method signature="loginToNop(java.lang.String,java.lang.String)[pri:2, instance:Test_06.NopCommerceParallelExecution@40a4337a]" started-at="2025-08-19T16:51:50 IST" name="loginToNop" data-provider="userData" finished-at="2025-08-19T16:51:53 IST" duration-ms="3115" status="FAIL">
+        <test-method signature="loginToNop(java.lang.String,java.lang.String)[pri:2, instance:Test_06.NopCommerceParallelExecution@40a4337a]" started-at="2025-08-22T11:05:17 IST" name="loginToNop" data-provider="userData" finished-at="2025-08-22T11:05:21 IST" duration-ms="3577" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -183,26 +183,26 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
             <message>
               <![CDATA[invalid selector: Unable to locate an element with the xpath expression //button[normalise-space()='Log in'] because of the following error:
 SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[normalise-space()='Log in']' is not a valid XPath expression.
-  (Session info: chrome=139.0.7258.128)
+  (Session info: chrome=139.0.7258.138)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e453975ff1a9f16e3cbb377d17283517, findElement {using=xpath, value=//button[normalise-space()='Log in']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52388/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e453975ff1a9f16e3cbb377d17283517]]>
+Command: [54865dc6f20f2da161dde0235da7f354, findElement {using=xpath, value=//button[normalise-space()='Log in']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53801}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53801/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 54865dc6f20f2da161dde0235da7f354]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //button[normalise-space()='Log in'] because of the following error:
 SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[normalise-space()='Log in']' is not a valid XPath expression.
-  (Session info: chrome=139.0.7258.128)
+  (Session info: chrome=139.0.7258.138)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e453975ff1a9f16e3cbb377d17283517, findElement {using=xpath, value=//button[normalise-space()='Log in']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52388/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e453975ff1a9f16e3cbb377d17283517
+Command: [54865dc6f20f2da161dde0235da7f354, findElement {using=xpath, value=//button[normalise-space()='Log in']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53801}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53801/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 54865dc6f20f2da161dde0235da7f354
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -239,7 +239,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToNop -->
-        <test-method signature="loginToNop(java.lang.String,java.lang.String)[pri:2, instance:Test_06.NopCommerceParallelExecution@40a4337a]" started-at="2025-08-19T16:51:50 IST" name="loginToNop" data-provider="userData" finished-at="2025-08-19T16:51:54 IST" duration-ms="3950" status="FAIL">
+        <test-method signature="loginToNop(java.lang.String,java.lang.String)[pri:2, instance:Test_06.NopCommerceParallelExecution@40a4337a]" started-at="2025-08-22T11:05:17 IST" name="loginToNop" data-provider="userData" finished-at="2025-08-22T11:05:21 IST" duration-ms="3702" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -256,26 +256,26 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
             <message>
               <![CDATA[invalid selector: Unable to locate an element with the xpath expression //button[normalise-space()='Log in'] because of the following error:
 SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[normalise-space()='Log in']' is not a valid XPath expression.
-  (Session info: chrome=139.0.7258.128)
+  (Session info: chrome=139.0.7258.138)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5f34d6217bf17bd97e00c77338226cd5, findElement {using=xpath, value=//button[normalise-space()='Log in']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52387/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5f34d6217bf17bd97e00c77338226cd5]]>
+Command: [c7fdc80712ab39645599db6e4c6f5b85, findElement {using=xpath, value=//button[normalise-space()='Log in']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53803}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53803/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c7fdc80712ab39645599db6e4c6f5b85]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //button[normalise-space()='Log in'] because of the following error:
 SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[normalise-space()='Log in']' is not a valid XPath expression.
-  (Session info: chrome=139.0.7258.128)
+  (Session info: chrome=139.0.7258.138)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5f34d6217bf17bd97e00c77338226cd5, findElement {using=xpath, value=//button[normalise-space()='Log in']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52387}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52387/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5f34d6217bf17bd97e00c77338226cd5
+Command: [c7fdc80712ab39645599db6e4c6f5b85, findElement {using=xpath, value=//button[normalise-space()='Log in']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53803}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53803/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c7fdc80712ab39645599db6e4c6f5b85
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -312,7 +312,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToNop -->
-        <test-method signature="loginToNop(java.lang.String,java.lang.String)[pri:2, instance:Test_06.NopCommerceParallelExecution@40a4337a]" started-at="2025-08-19T16:51:53 IST" name="loginToNop" data-provider="userData" finished-at="2025-08-19T16:51:56 IST" duration-ms="2933" status="FAIL">
+        <test-method signature="loginToNop(java.lang.String,java.lang.String)[pri:2, instance:Test_06.NopCommerceParallelExecution@40a4337a]" started-at="2025-08-22T11:05:21 IST" name="loginToNop" data-provider="userData" finished-at="2025-08-22T11:05:23 IST" duration-ms="2619" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -329,26 +329,26 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
             <message>
               <![CDATA[invalid selector: Unable to locate an element with the xpath expression //button[normalise-space()='Log in'] because of the following error:
 SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[normalise-space()='Log in']' is not a valid XPath expression.
-  (Session info: chrome=139.0.7258.128)
+  (Session info: chrome=139.0.7258.138)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7161273c354bb3606967714ed65b97d2, findElement {using=xpath, value=//button[normalise-space()='Log in']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52421}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52421/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7161273c354bb3606967714ed65b97d2]]>
+Command: [740e045be395ce8618c74c35b7a6a5a6, findElement {using=xpath, value=//button[normalise-space()='Log in']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53839}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53839/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 740e045be395ce8618c74c35b7a6a5a6]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //button[normalise-space()='Log in'] because of the following error:
 SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[normalise-space()='Log in']' is not a valid XPath expression.
-  (Session info: chrome=139.0.7258.128)
+  (Session info: chrome=139.0.7258.138)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7161273c354bb3606967714ed65b97d2, findElement {using=xpath, value=//button[normalise-space()='Log in']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52421}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52421/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7161273c354bb3606967714ed65b97d2
+Command: [740e045be395ce8618c74c35b7a6a5a6, findElement {using=xpath, value=//button[normalise-space()='Log in']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.138, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\kashi\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53839}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53839/devtoo..., se:cdpVersion: 139.0.7258.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 740e045be395ce8618c74c35b7a6a5a6
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)

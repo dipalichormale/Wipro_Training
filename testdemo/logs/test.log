@@ -1,0 +1,6 @@
+[2025-08-21 09:38:28] INFO  LoggerTest - Launching browser: Chrome with URL: https://demowebshop.tricentis.com/
+[2025-08-21 09:38:31] INFO  LoggerTest - Browser launched successfully and navigated to https://demowebshop.tricentis.com/
+[2025-08-21 09:38:31] INFO  LoggerTest - Browser closed and WebDriver quit successfully
+[2025-08-21 11:52:18] INFO  LoggerTest - Launching browser: Chrome with URL: https://demowebshop.tricentis.com/
+[2025-08-21 11:52:23] INFO  LoggerTest - Browser launched successfully and navigated to https://demowebshop.tricentis.com/
+[2025-08-21 11:52:23] INFO  LoggerTest - Browser closed and WebDriver quit successfully
